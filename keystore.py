@@ -12,3 +12,4 @@ def save_key(iv:bytes, key:bytes)->str:
             iv.hex()+'\n',
             key.hex()
         ])
+    return token
